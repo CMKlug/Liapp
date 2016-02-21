@@ -1,8 +1,9 @@
 # Liapp
 The unofficial Android app for the Abbott Freestyle Libre
 
-![Liapp.png](https://github.com/CMKlug/Liapp/blob/master/screenshots/liapp.png)
-
+![Liapp](https://github.com/CMKlug/Liapp/blob/master/screenshots/Liapp.png)
+![Liapp](https://github.com/CMKlug/Liapp/blob/master/screenshots/Liapp2.png)
+![Liapp](https://github.com/CMKlug/Liapp/blob/master/screenshots/Liapp3.png)
 Donations
 -----
 Donations are awesome!
