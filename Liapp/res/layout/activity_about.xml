@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_about"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="de.cmklug.liapp.AboutActivity"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <ImageView
+                    android:id="@+id/about_iv_logo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_libre" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/about_tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:text="@string/app_name"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="40sp"
+                        android:typeface="normal" />
+
+                    <TextView
+                        android:id="@+id/tv_about_version"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorSecondaryDark"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:text="1.X.X"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/about_tv_MA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryDark"
+                android:paddingTop="20dp"
+                android:text="@string/about_description"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/about_tv_eMail"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorSecondaryDark"
+                android:layout_height="wrap_content"
+                android:text="liapp@marcelklug.de"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="center_horizontal"
+                android:autoLink="email"
+                android:clickable="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Translator:"
+                android:id="@+id/tv_about_translator_title"
+                android:paddingTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/tv_about_translator"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Developer:"
+                android:id="@+id/textView2"
+                android:paddingTop="10dp" />
+
+            <ImageView
+                android:id="@+id/iv_cmlogo1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cmlogo"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/about_tv_mk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryDark"
+                android:text="M.Eng Marcel Klug"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingTop="20dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/about_tv_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryDark"
+                android:text="http://www.marcelklug.de"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:paddingBottom="30dp"
+                android:autoLink="web" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Libraries:"
+                android:id="@+id/tv_about_libraries"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="MPAndroidChart"
+                android:id="@+id/tv_library_MPAndroidChart"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Philipp Jahoda (Apache License, Version 2.0)"
+                android:id="@+id/tv_library_MPAndroidChart_licence"
+                android:textColor="@color/colorSecondaryDark"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="https://github.com/PhilJay/MPAndroidChart"
+                android:id="@+id/tv_library_MPAndroidChart_link"
+                android:textColor="@color/colorSecondaryDark"
+                android:paddingLeft="10dp"
+                android:clickable="true"
+                android:autoLink="web"
+                android:paddingBottom="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

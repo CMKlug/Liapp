@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_close">Beenden</string>
+
+    <string name="pref_unit">Einheit</string>
+    <string name="pref_unit_summary">Legt die Einheit der Messung fest</string>
+    <string name="pref_general_settings">Allgemein</string>
+
+    <string name="ends_in">"Läuft ab in"</string>
+    <string name="day">Tag</string>
+    <string name="days">Tagen</string>
+    <string name="hour">Stunde</string>
+    <string name="hours">Stunden</string>
+    <string name="minutes">Minuten</string>
+    <string name="minute">Minute</string>
+    <string name="sensor_expired">"Sensor abgelaufen!"</string>
+    <string name="no_sensor">"Scanne einen Sensor"</string>
+    <string name="last_scan">"Letzte Messung:"</string>
+
+    <string name="error_reading_tag">"Error reading Tag!"</string>
+    <string name="error_read_timeout">"Read Timeout!"</string>
+    <string name="pref_style_settings">Style</string>
+    <string name="pref_wait_read_finished">Diskreter Sensor-Scan</string>
+    <string name="reading_sensor">Lese Sensor...</string>
+    <string name="reading_finished">Fertig!</string>
+    <string name="pref_wait_read_finished_sum">Warte auf Bestätigung nach dem Lesen</string>
+    <string name="error_read_cancelled">"Scan abgebrochen!"</string>
+    <string name="pref_nightmode_sum">Dunkler Hintergrund</string>
+    <string name="pref_nightmode">Nachtmodus</string>
+    <string name="action_about">About</string>
+    <string name="action_debug">Debug</string>
+    <string name="pref_debug_settings">Debug</string>
+    <string name="error_nfc_disabled">NFC ist deaktiviert!</string>
+    <string name="error_nfc_device_not_supported">"Dieses Gerät besitzt keinen NFC-Chip!"</string>
+    <string name="pref_debug_mode">Debug-Modus</string>
+    <string name="pref_debug_mode_sum">Debug-Modus aktivieren</string>
+    <string name="pref_nfc_fastscan">Schneller Scan</string>
+    <string name="pref_nfc_fastscan_sum">Funktioniert nicht mit allen Geräten!</string>
+    <string name="pref_nfc_settings">NFC-Scan</string>
+    <string name="pref_zb_max">Zielbereich max.</string>
+    <string name="pref_zb_min">Zielbereich min.</string>
+    <string name="pref_rotation_lock_sum">Porträt-Orientierung beibehalten</string>
+    <string name="pref_rotation_lock">Rotation verhindern</string>
+    <string name="pref_default_range">Standardbereich</string>
+    <string name="sensor_ready_in">"Bereit in"</string>
+
+    <string name="copytoclipboard">"Wert in Zwischenablage kopiert"</string>
+
+    <string name="eula2">"Da die derzeit zugelassenen CGM-Geräte nicht so genau und zuverlässig wie Standard-Blutzuckermessgeräte sind, sollten die angezeigten Blutzuckerwerte immer mit einem Messgerät überprüft werden. \n\n Diese App ist nicht für diagnostische oder therapeutische Zwecke gedacht. \n\n Dies ist nicht die offizielle Libre Andoid-App! Der Entwickler dieser App haften nicht für Schäden, die beim Auslesen des Sensors oder durch falsche Werte entstehen könnten. \n\n Die angezeigten Werte können von den tatsächlichen Blutzuckerwerten abweichen. \n\n Diese App befindet sich derzeit noch in der Entwicklung! "</string>
+    <string name="critical_value">Kritischer Wert!</string>
+    <string name="use_glucose_meter">Überprüfe den angezeigten Wert mit einem Blutzuckermessgerät!</string>
+    <string name="translator">""</string>
+    <string name="new_sensor">Neuer Sensor gefunden!</string>
+    <string name="no_data">Keine Daten</string>
+    <string name="prediction_constant">konstant</string>
+    <string name="prediction_falling">fallend</string>
+    <string name="prediction_falling_slow">langsam fallend</string>
+    <string name="prediction_rising">steigend</string>
+    <string name="prediction_rising_slow">langsam steigend</string>
+    <string name="pref_blindmode">Blindenmodus</string>
+    <string name="pref_blindmode_sum">Ersetzt Grafiken durch Texte für Apps wie Talkback.</string>
+    <string name="save_data_from_this_sensor">Daten von diesem Sensor speichern?</string>
+    <string name="sensor_not_activated">Sensor nicht aktiviert</string>
+
+</resources>

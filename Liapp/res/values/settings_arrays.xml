@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array translatable="false" name="unit">
+        <item name="mg/dl">mg/dl</item>
+        <item name="mmol/l">mmol/l</item>
+    </string-array>
+    <string-array translatable="false" name="unitValues">
+        <item name="mg/dl">mg/dl</item>
+        <item name="mmol/l">mmol/l</item>
+    </string-array>
+</resources>

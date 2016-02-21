@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/layoutpart_logentry"
+    android:weightSum="1"
+    android:gravity="center_horizontal"
+    android:minWidth="250dp"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="2dp"
+        android:minWidth="50dp">
+
+        <TextView
+        android:id="@+id/logEntry_tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="date"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:shadowRadius="1"
+        android:textColor="@color/colorGlucoseNow"
+        android:shadowColor="@color/colorBackgroundLight"
+        android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/logEntry_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:textSize="20sp"
+            android:textIsSelectable="false"
+            android:shadowRadius="1"
+            android:textColor="@color/colorGlucoseNow"
+            android:shadowColor="@color/colorBackgroundLight"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/logEntry_tv_glucoselevel"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:textSize="40sp"
+        android:textIsSelectable="false"
+        android:shadowRadius="1"
+        android:textColor="@color/colorGlucoseNow"
+        android:shadowColor="@color/colorBackgroundLight"
+        android:paddingRight="5dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:minWidth="110dp" />
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/logEntry_tv_arrow"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="2dp" />
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:background="@drawable/button_log"
+        android:layout_gravity="center_vertical"
+        android:minHeight="2dp"
+        android:layout_alignBottom="@+id/layoutpart_logentry"
+        android:layout_alignRight="@+id/layoutpart_logentry"
+        android:layout_alignEnd="@+id/layoutpart_logentry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

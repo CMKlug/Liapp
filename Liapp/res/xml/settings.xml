@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_general_settings"
+        android:key="pref_key_general_settings">
+
+        <ListPreference
+
+            android:key="pref_unit"
+            android:title="@string/pref_unit"
+            android:dialogTitle="@string/pref_unit"
+            android:entries="@array/unit"
+            android:entryValues="@array/unitValues"
+            android:defaultValue="mg/dl"
+            android:summary="%s" />
+
+        <de.cmklug.liapp.mEditTextPreference
+            android:key="pref_zb_min"
+            android:title="@string/pref_zb_min"
+            android:inputType="numberDecimal"
+            android:defaultValue="0"
+            android:summary="%s"   />
+
+        <de.cmklug.liapp.mEditTextPreference
+            android:key="pref_zb_max"
+            android:title="@string/pref_zb_max"
+            android:inputType="numberDecimal"
+            android:defaultValue="0"
+            android:summary="%s"   />
+
+        <de.cmklug.liapp.mEditTextPreference
+            android:key="pref_default_range"
+            android:title="@string/pref_default_range"
+            android:inputType="numberDecimal"
+            android:defaultValue="0"
+            android:summary="%s"   />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_style_settings"
+        android:key="pref_key_style_settings">
+
+        <CheckBoxPreference
+            android:key="pref_blindmode"
+            android:title="@string/pref_blindmode"
+            android:summary="@string/pref_blindmode_sum"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_wait_read_finished_button"
+            android:title="@string/pref_wait_read_finished"
+            android:summary="@string/pref_wait_read_finished_sum"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_nightmode"
+            android:title="@string/pref_nightmode"
+            android:summary="@string/pref_nightmode_sum"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_rotation_lock"
+            android:title="@string/pref_rotation_lock"
+            android:summary="@string/pref_rotation_lock_sum"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_nfc_settings"
+        android:key="pref_key_nfc_settings">
+
+        <CheckBoxPreference
+            android:key="pref_nfc_fastscan"
+            android:title="@string/pref_nfc_fastscan"
+            android:summary="@string/pref_nfc_fastscan_sum"
+            android:defaultValue="false" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_debug_settings"
+        android:key="pref_key_debug_settings">
+
+        <CheckBoxPreference
+            android:key="pref_debug_mode"
+            android:title="@string/pref_debug_mode"
+            android:summary="@string/pref_debug_mode_sum"
+            android:defaultValue="false" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

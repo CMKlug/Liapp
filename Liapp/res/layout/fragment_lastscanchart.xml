@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_LastScanchart_blindmode" android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSecondaryDark"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/last_scan"
+            android:id="@+id/tv_last_scan_blindmode"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tv_glucoseNow_blindmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorGlucoseNow"
+            android:text="---"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/colorBackgroundLight"
+            android:shadowRadius="1" />
+
+        <TextView
+            android:id="@+id/tv_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorGlucoseNow"
+            android:text="---"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/colorBackgroundLight"
+            android:shadowRadius="1"/>
+
+        <TextView
+            android:id="@+id/tv_prediction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorGlucoseNow"
+            android:text="---"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/colorBackgroundLight"
+            android:shadowRadius="1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_LastScan"
+                android:layout_gravity="center_horizontal" />
+
+    </LinearLayout> //blindmode end
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_LastScanchart" android:visibility="visible">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_glucoseNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGlucoseNow"
+                android:text="---"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                android:textIsSelectable="false"
+                android:shadowColor="@color/colorBackgroundLight"
+                android:shadowRadius="3"
+                android:clickable="true"
+                android:onClick="current_clucose_onClick" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/iv_unit"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/iv_prediction"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSecondaryDark"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/last_scan"
+            android:id="@+id/tv_last_scan"
+            android:layout_gravity="center_horizontal" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/cv_LastScan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</RelativeLayout>

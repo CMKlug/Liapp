@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name" translatable="false">" Liapp"</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_debug">Debug</string>
+    <string name="action_about">About</string>
+    <string name="action_close">Close</string>
+
+    <string name="pref_unit">Unit</string>
+    <string name="pref_unit_summary">Set the unit of measurement</string>
+    <string name="pref_zb_min">Target area min.</string>
+    <string name="pref_zb_max">Target area max.</string>
+    <string name="pref_default_range">Default range</string>
+    <string name="pref_general_settings">General</string>
+
+    <string name="pref_style_settings">Style</string>
+    <string name="pref_wait_read_finished">Discreet reading</string>
+    <string name="pref_wait_read_finished_sum">Wait for Button Hit after reading</string>
+    <string name="pref_nightmode">"Night Mode"</string>
+    <string name="pref_nightmode_sum">Dark Background</string>
+    <string name="pref_rotation_lock">"Rotation lock"</string>
+    <string name="pref_rotation_lock_sum">Keep Portrait orientation</string>
+
+    <string name="pref_debug_settings">Debug</string>
+    <string name="pref_debug_mode">"Debug Mode"</string>
+    <string name="pref_debug_mode_sum">Enable Debugmode</string>
+
+    <string name="pref_blindmode">Blind Mode</string>
+    <string name="pref_blindmode_sum">Replace graphics with texts for Apps like Talkback. </string>
+
+    <string name="pref_nfc_settings">NFC-Scan</string>
+    <string name="pref_nfc_fastscan">"Fast Scan"</string>
+    <string name="pref_nfc_fastscan_sum">Does not work with all devices!</string>
+
+    <string name="ends_in">"Ends in"</string>
+    <string name="day">Day</string>
+    <string name="days">Days</string>
+    <string name="hour">Hour</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="minute">Minute</string>
+    <string name="sensor_expired">"Sensor expired!"</string>
+    <string name="sensor_ready_in">"Ready in"</string>
+    <string name="sensor_not_activated">"Sensor not activated"</string>
+    <string name="no_sensor">"Scan a Sensor"</string>
+    <string name="new_sensor">"New sensor found!"</string>
+    <string name="save_data_from_this_sensor">"Save values from this sensor?"</string>
+    <string name="last_scan">"Last Scan:"</string>
+    <string name="no_data">"no data"</string>
+
+    <string name="about_description" translatable="false">"The unofficial Android app for the Libre sensor.\n\nCurrently still in development.\n\nIf you think this app worth money, please go to my Homepage and support me!\n\nYou have questions, suggestions or feedback? write me:"</string>
+
+    <string name="reading_sensor">"Reading..."</string>
+    <string name="reading_finished">"Done!"</string>
+
+    <string name="error_reading_tag">"Error reading Tag!"</string>
+    <string name="error_read_timeout">"Read Timeout!"</string>
+    <string name="error_read_cancelled">"Read cancelled!"</string>
+    <string name="error_nfc_device_not_supported">"This device doesn't support NFC!"</string>
+    <string name="error_nfc_disabled">"NFC is disabled!"</string>
+
+    <string name="copytoclipboard">"copied to clipboard"</string>
+
+
+    <string name="updates" translatable="false">"Updates: \n- Export as csv\n- Bugfix\n   \n\n"</string>
+
+
+
+    <string name="eula" translatable="false">"*** END USER LICENSE AGREEMENT ***\n\n IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.\n\n 1. LICENSE\n This Software is for educational and noncommcercial use only.\n\n By receiving, opening the file package, and/or using Liapp ("Software") containing this software, you agree that this End User User License Agreement(EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.\n If you do not agree to be bound by this agreement,don't use this Software and remove Liapp.\n\n 2. USER AGREEMENT\n 2.1 Use / Use Restrictions\n\n Because currently approved CGM devices are not as accurate and reliable as standard blood glucose meters, users should confirm glucose levels with a meter before making a change in treatment.\n\n This resource is not designed for diagnostic or treatment purposes.\n\n You shall use Liapp in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of Liapp together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race, sexual orientation or age is strictly prohibited.\n\n 2.2 Copyright Restriction\n\n This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile Liapp. Nor can you create any derivative works or other works that are based upon or derived from Liapp in whole or in part.\n\n Marcel Klug's name, logo and graphics file that represents Liapp shall not be used in any way to promote products developed with Liapp. Marcel Klug retains sole and exclusive ownership of all right, title and interest in and to Liapp and all Intellectual Property rights relating thereto.\n\n Copyright law and international copyright treaty provisions protect all parts of Liapp  products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Marcel Klug.\n\n 2.3 Limitation of Responsibility\n\n You will indemnify, hold harmless, and defend Marcel Klug, its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Marcel Klug's Software.\n\n In no event (including, without limitation, in the event of negligence) will Marcel KLug, its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss, harm cause of wrong data), in connection with or arising out of or related to this Agreement, Liapp or the use or inability to use Liapp or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.\n\n 2.4 Warranties\n\n Except as expressly stated in writing, Marcel Klug makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.\n\n 3. DISCLAIMER OF WARRANTY\n\n THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY Liapp AS WELL.\n\n 4. CONSENT OF USE OF DATA\n\n You agree that data collected with this Software are stored locally on your Smartphone and can be used by Liapp.\n\n "</string>
+
+    <string name="eula2">"Because currently approved CGM devices are not as accurate and reliable as standard blood glucose meters, users should confirm glucose levels with a meter before making a change in treatment.\n\n This resource is not designed for diagnostic or treatment purposes.\n\n This is not the official Libre Andoid App. The Developer of this App are not liable for damages that may arise during reading the sensor or because of incorrect values.\n\n Displayed values may differ from the actual blood sugar.\n\n Currently still in development!"</string>
+
+    <string name="critical_value">Critical value!</string>
+    <string name="use_glucose_meter">Verify the displayed value with a Glucose meter!</string>
+    <string name="translator">""</string>
+
+    <string name="prediction_falling">"falling"</string>
+    <string name="prediction_falling_slow">"slowly falling"</string>
+    <string name="prediction_constant">"constant"</string>
+    <string name="prediction_rising">"rising"</string>
+    <string name="prediction_rising_slow">"slowly rising"</string>
+
+
+</resources>

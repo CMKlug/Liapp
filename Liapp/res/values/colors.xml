@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffe64a19</color>
+    <color name="colorPrimaryDark">#c23f15</color>
+    <color name="colorPrimaryLight">#ffccbc</color>
+    <color name="colorSecondary">#607d8b</color>
+    <color name="colorSecondaryDark">#ff434343</color>
+    <color name="colorGlucoseNow">#ff434343</color>
+    <color name="colorGlucoseLast">#21434343</color>
+    <color name="colorSecondaryLight">#cfd8dc</color>
+    <color name="colorZielbereichLight">#cfd8dc</color>
+    <color name="colorZielbereichDark">#f0373737</color>
+    <color name="colorAccent">#ffff8c00</color>
+    <color name="colorBackgroundReading">#f4000000</color>
+    <color name="colorBackgroundLight">#FAFAFA</color>
+    <color name="colorBackgroundDark">#1b1b1b</color>
+    <color name="colorValue">#FF33B5E5</color>
+    <color name="colorValueShadow">#81000000</color>
+</resources>

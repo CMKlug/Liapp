@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackgroundLight"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/libre_sensor03"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sensor"
+                android:id="@+id/tv_sensorinfo"
+                android:layout_gravity="center_vertical|left"
+                android:textColor="@color/colorSecondaryDark"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="2dp"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <android.support.v4.view.PagerTitleStrip
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorSecondaryDark"
+                android:background="@color/colorPrimary" />
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_reading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundReading"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_reading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pb_reading_spin"
+                android:progress="0"
+                android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ll_reading_tvpb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/reading_sensor"
+            android:id="@+id/tv_reading"
+            android:textColor="@color/colorPrimary"
+                android:layout_gravity="center_horizontal" />
+
+            <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb_reading"
+            android:focusableInTouchMode="false"
+            android:max="40"
+            android:progress="20" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reading_finished"
+            android:id="@+id/bt_reading"
+            android:layout_marginTop="5dp"
+            android:onClick="finished_reading_onClick"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
