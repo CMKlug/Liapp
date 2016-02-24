@@ -1,6 +1,10 @@
 # Liapp
 The unofficial Android app for the Abbott Freestyle Libre
 
+<a href="https://play.google.com/store/apps/details?id=de.cm.liapp">
+<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
+</a>
+
 ![Liapp](https://github.com/CMKlug/Liapp/blob/master/screenshots/Liapp.png)
 ![Liapp](https://github.com/CMKlug/Liapp/blob/master/screenshots/Liapp2.png)
 ![Liapp](https://github.com/CMKlug/Liapp/blob/master/screenshots/Liapp3.png)
