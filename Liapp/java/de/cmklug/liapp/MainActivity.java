@@ -757,13 +757,13 @@ public class MainActivity extends ActionBarActivity {
             stream.write(string.getBytes());
             stream.close();
 
-            imageUris.add(Uri.fromFile(f_csv)); // Add your image URIs here
-
             if(cv_LastScan.saveToPath(name_chart, dir)){
                 imageUris.add(Uri.fromFile(f_chart));
                 //myShareIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(baseDir + dir + "/" + name_chart + ".png"));
             }
-
+            
+	    imageUris.add(Uri.fromFile(f_csv)); // Add your image URIs here
+	    
             //myShareIntent.putExtra(Intent.EXTRA_STREAM, uri);
             myShareIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, imageUris);
             //myShareIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(baseDir + dir + "/" + name_csv + ".csv"));
